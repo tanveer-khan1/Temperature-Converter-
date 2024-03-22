@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Temperature Conveter</title>
+    <link rel="shortcut icon" href="temp.png" type="image/x-icon">
+    <script src="https://kit.fontawesome.com/1898472604.js" crossorigin="anonymous"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat&family=Roboto&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css"> 
+    
+
+
+</head>
+<body>
+       <h1>Temperature Converter
+        <i class="fa-solid fa-temperature-three-quarters"></i>
+    </h1>
+    
+    <div id="container">
+        
+        <div id="inputs">
+            <div class="input-div">
+                <label> Celsius</label>
+                <input type="number" id="cel" value="0" class="inp" style="text-align: center;">
+                
+            </div>
+            <div id="convert-icon">
+                <i class="fa-solid fa-arrows-rotate" style="font-size: 25px;"></i>
+            </div>
+            <div class="input-div">
+                <label>Fahrenheit</label>
+                <input type="number" id="fah" value="32" class="inp" style="text-align: center;">
+    
+            </div>
+            <div id="convert-icon">
+                <i class="fa-solid fa-arrows-rotate" style="font-size: 25px;"></i>
+            </div>
+            <div class="input-div">
+                <label>Kelvin</label>
+                <input type="number" id="kel" value="273.15" class="inp" style="text-align: center;">
+    
+            </div>
+        </div>
+        
+    </div>
+
+    <div id="info">
+        <h3 style="margin-bottom: 1rem;">How to convert:</h3>
+            
+            <div id="steps">
+            <h4>Step 1:</h4>
+            <p>Type temperature value in any of the scale of your choice from the given three scales.</p>
+               
+            <h4>Step 2:</h4>
+            <p>Your entered scale value will be converted automatically in other two scales.</p>
+            </div>
+
+        <h4 id="simple">Yes it's that simple!</h4>
+
+    </div>
+   
+<script src="script.js"></script>
+</body>
+</html>
